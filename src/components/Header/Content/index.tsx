@@ -1,4 +1,5 @@
 import { Container } from './styles';
+import Image from 'next/image'
 
 export function Content() {
   return(
@@ -7,7 +8,7 @@ export function Content() {
         O Reiki é uma ferramenta natural que pode ser usada para 
         nos ajudar a lidar com as tensões da vida cotidiana.
       </p>
-      <img src="/assets/lotus.png" alt="Flor de Lótus"/>
+      <Image width="240" height="400" src="/assets/lotus.png" alt="Flor de Lótus"/>
     </Container>
   )
 }

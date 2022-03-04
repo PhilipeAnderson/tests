@@ -1,11 +1,12 @@
 import { Container } from './styles';
+import Image from 'next/image';
 
 export function Testimonial() {
   return(
     <Container>
       <section>
         <div>
-          <img src="https://www.clarin.com/img/2016/04/05/HJxaM4fy4g_340x340.jpg" alt="Foto de Perfil!" />
+          <Image width="270" height="270" src="/assets/testimonial.JPG" alt="Foto de Perfil!" />
           <div>
             <h3>Flávia Assunção</h3>
             <p>
