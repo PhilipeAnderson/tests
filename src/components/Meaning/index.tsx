@@ -1,4 +1,5 @@
 import { Container } from './styles';
+import Image from 'next/image';
 
 export function Meaning() {
   return(
@@ -33,7 +34,7 @@ export function Meaning() {
             </article>
           </aside>
 
-          <img src="/assets/jpr.png" alt="Letras em japones do Reiki" />
+          <Image width="320" height="600" src="/assets/jpr.png" alt="Letras em japones do Reiki" />
 
           <aside>
           <article>

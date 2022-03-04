@@ -50,8 +50,7 @@ export const Container = styled.main`
       }
       
       img {
-        width: 30%;
-        margin-right: 40px;
+        margin-right: 60px;
       }
     }
   }
