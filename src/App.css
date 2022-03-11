@@ -6,7 +6,10 @@ body{
   background-color: #FFFFFF;
 }
 
-.App{
-  max-width: 1080px;
-  margin: 0 auto;
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
