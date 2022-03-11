@@ -9,6 +9,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+
     height: 70px;
     margin: 0 auto;
     padding: 0 10px;
@@ -40,4 +42,28 @@
     font-size: 18px;
     margin-left: 20px;
 }
+
+.bodyHeader {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.textBody {
+    margin-top: 100px;
+    max-width: 400px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lotus {
+    margin-top: 50px;
+    width: 250px;
+}
+
+
 

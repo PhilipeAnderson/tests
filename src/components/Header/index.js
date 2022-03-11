@@ -1,4 +1,5 @@
 import styles from './styles.module.css';
+import Lotus from '../../assets/lotus.png';
 import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
 export function Header() {
@@ -31,6 +32,13 @@ export function Header() {
           </ul>
         </div>
       </main>
+      <section className={styles.bodyHeader}>
+        <h1 className={styles.textBody}>
+        O Reiki é uma ferramenta natural que pode ser usada 
+        para nos ajudar a lidar com as tensões da vida cotidiana.
+        </h1>
+        <img className={styles.lotus} src={Lotus} alt="Flor de Lotus" />
+      </section>
     </header>
   )
 }
