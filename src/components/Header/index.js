@@ -1,4 +1,5 @@
 import styles from './styles.module.css';
+import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
 export function Header() {
   return (
@@ -7,14 +8,26 @@ export function Header() {
         <nav>
           <ul className={styles.menu}>
             <li><a className={styles.textMenu} href="/">Início</a></li>
-            <li><a className={styles.textMenu} href="/">Sobre o Reiki</a></li>
+            <li><a className={styles.textMenu} href="/">Reiki</a></li>
           </ul>
         </nav>
         <div>
           <ul className={styles.socialNet}>
-            <li className={styles.icons}>Insta</li>
-            <li className={styles.icons}>Face</li>
-            <li className={styles.icons}>Whats</li>
+            <li className={styles.icons}>
+              <a>
+                <FaInstagram />
+              </a>
+            </li>
+            <li className={styles.icons}>
+              <a>
+                <FaFacebook />
+              </a>
+            </li>
+            <li className={styles.icons}>
+              <a>
+                <FaWhatsapp />
+              </a>
+            </li>
           </ul>
         </div>
       </main>
