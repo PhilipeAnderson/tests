@@ -14,7 +14,7 @@ export function Attendance() {
                         </p>
                     </header>
                     
-                    <button>
+                    <button className={styles.buttomBox}>
                         Fale Conosco
                     </button>
                 </div>
@@ -28,7 +28,7 @@ export function Attendance() {
                         </p>
                     </header>
                     
-                    <button>
+                    <button className={styles.buttomBox}>
                         Fale Conosco
                     </button>
                 </div>
@@ -42,7 +42,7 @@ export function Attendance() {
                         </p>
                     </header>
                     
-                    <button>
+                    <button className={styles.buttomBox}>
                         Fale Conosco
                     </button>
                 </div>
