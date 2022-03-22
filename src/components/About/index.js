@@ -2,6 +2,9 @@ import styles from './styles.module.css';
 
 export function About() {
   return(
-    <h1 className={styles.container}>Teste</h1>
+    <main>
+      <h1 className={styles.container}>Teste</h1>
+    </main>
+
   )
 }
