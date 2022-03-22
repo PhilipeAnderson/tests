@@ -5,7 +5,7 @@ export function Testimonial() {
     <main className={styles.container}>
       <section className={styles.content}>
         <div className={styles.picture}>
-          <img src="https://www.clarin.com/img/2016/04/05/HJxaM4fy4g_340x340.jpg" alt="Imagem de Cliente Testimonial" />
+          <img className={styles.pic}src="https://www.clarin.com/img/2016/04/05/HJxaM4fy4g_340x340.jpg" alt="Imagem de Cliente Testimonial" />
         </div>
         <div className={styles.textTestimonial}>
           <header className={styles.titleTestimonial}>

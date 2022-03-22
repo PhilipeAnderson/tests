@@ -6,9 +6,9 @@ export function Attendance() {
 			<section className={styles.content}>
 				<div className={styles.boxAttendance}>
 					<header className={styles.headerBox}>
-						<h2>Presencial</h2>
+						<h2 className={styles.headerTitle}>Presencial</h2>
 						<br />
-						<p>
+						<p className={styles.headerText}>
 							Temos um ambiente preparado para te atender, através
 							de horários agendados.
 						</p>
@@ -20,9 +20,9 @@ export function Attendance() {
 				</div>
 				<div className={styles.boxAttendance}>
 					<header className={styles.headerBox}>
-						<h2>Domicílio</h2>
+						<h2 className={styles.headerTitle}>Domicílio</h2>
 						<br />
-						<p>
+						<p className={styles.headerText}>
 							Temos um ambiente preparado para te atender, através
 							de horários agendados.
 						</p>
@@ -34,9 +34,9 @@ export function Attendance() {
 				</div>
 				<div className={styles.boxAttendance}>
 					<header className={styles.headerBox}>
-						<h2>Online</h2>
+						<h2 className={styles.headerTitle}>Online</h2>
 						<br />
-						<p>
+						<p className={styles.headerText}>
 							Temos um ambiente preparado para te atender, através
 							de horários agendados.
 						</p>
