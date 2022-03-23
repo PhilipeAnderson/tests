@@ -14,3 +14,17 @@
 .textAbout {
   text-align: center;
 }
+
+.contentAbout {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.imageAbout {
+  width: 250px;
+}
+
+.left, .right {
+  width: 250px;
+}
