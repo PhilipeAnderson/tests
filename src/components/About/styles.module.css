@@ -1,6 +1,5 @@
 .container {
   width: 100%;
-  background-color: #0f0;
   height: 250px;
 }
 
@@ -8,7 +7,6 @@
   max-width: 1080px;
   margin: 0 auto;
   height: 100px;
-  background-color: #ff0;
 }
 
 .textAbout {
@@ -27,4 +25,16 @@
 
 .left, .right {
   width: 250px;
+}
+
+.tipsAbout {
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.tipsAbout h3 {
+  border-radius: 5px;
+  padding: 5px;
+  color: #fff;
+  background-color: #6fc0d1;
 }

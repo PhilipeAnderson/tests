@@ -9,19 +9,19 @@ export function About() {
         <h1 className={styles.textAbout}>Reiki</h1>
         <div className={styles.contentAbout}>
           <aside className={styles.left}>
-            <div>
+            <div className={styles.tipsAbout}>
               <h3>Título</h3>
               <p>
                 Alguma coisa escrita aqui sobre alguma caracteristica sobre o atendimento
               </p>
             </div>
-            <div>
+            <div className={styles.tipsAbout}>
               <h3>Título</h3>
               <p>
                 Alguma coisa escrita aqui sobre alguma caracteristica sobre o atendimento
               </p>
             </div>
-            <div>
+            <div className={styles.tipsAbout}>
               <h3>Título</h3>
               <p>
                 Alguma coisa escrita aqui sobre alguma caracteristica sobre o atendimento
@@ -34,23 +34,23 @@ export function About() {
           </div>
 
           <aside className={styles.right}>
-          <div>
-            <h3>Título</h3>
-            <p>
-              Alguma coisa escrita aqui sobre alguma caracteristica sobre o atendimento
-            </p>
+            <div className={styles.tipsAbout}>
+              <h3>Título</h3>
+              <p>
+                Alguma coisa escrita aqui sobre alguma caracteristica sobre o atendimento
+              </p>
             </div>
-            <div>
-            <h3>Título</h3>
-            <p>
-              Alguma coisa escrita aqui sobre alguma caracteristica sobre o atendimento
-            </p>
+            <div className={styles.tipsAbout}>
+              <h3>Título</h3>
+              <p>
+                Alguma coisa escrita aqui sobre alguma caracteristica sobre o atendimento
+              </p>
             </div>
-            <div>
-            <h3>Título</h3>
-            <p>
-              Alguma coisa escrita aqui sobre alguma caracteristica sobre o atendimento
-            </p>
+            <div className={styles.tipsAbout}>
+              <h3>Título</h3>
+              <p>
+                Alguma coisa escrita aqui sobre alguma caracteristica sobre o atendimento
+              </p>
             </div>
           </aside>
         </div>
