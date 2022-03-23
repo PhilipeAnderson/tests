@@ -6,25 +6,25 @@ export function About() {
   return(
     <main className={styles.container}>
       <section className={styles.content}>
-        <h1 className={styles.textAbout}>Reiki</h1>
+        <h1 className={styles.textAbout}>O que é o Reiki</h1>
         <div className={styles.contentAbout}>
           <aside className={styles.left}>
             <div className={styles.tipsAbout}>
-              <h3>Título</h3>
+              <h4>Título</h4>
               <p>
-                Alguma coisa escrita aqui sobre alguma caracteristica sobre o atendimento
+                Alguma coisa escrita aqui sobre alguma característica sobre o atendimento.
               </p>
             </div>
             <div className={styles.tipsAbout}>
-              <h3>Título</h3>
+              <h4>Título</h4>
               <p>
-                Alguma coisa escrita aqui sobre alguma caracteristica sobre o atendimento
+                Alguma coisa escrita aqui sobre alguma característica sobre o atendimento.
               </p>
             </div>
             <div className={styles.tipsAbout}>
-              <h3>Título</h3>
+              <h4>Título</h4>
               <p>
-                Alguma coisa escrita aqui sobre alguma caracteristica sobre o atendimento
+                Alguma coisa escrita aqui sobre alguma característica sobre o atendimento.
               </p>
             </div>
           </aside>
@@ -35,21 +35,21 @@ export function About() {
 
           <aside className={styles.right}>
             <div className={styles.tipsAbout}>
-              <h3>Título</h3>
+              <h4>Título</h4>
               <p>
-                Alguma coisa escrita aqui sobre alguma caracteristica sobre o atendimento
+                Alguma coisa escrita aqui sobre alguma característica sobre o atendimento.
               </p>
             </div>
             <div className={styles.tipsAbout}>
-              <h3>Título</h3>
+              <h4>Título</h4>
               <p>
-                Alguma coisa escrita aqui sobre alguma caracteristica sobre o atendimento
+                Alguma coisa escrita aqui sobre alguma característica sobre o atendimento.
               </p>
             </div>
             <div className={styles.tipsAbout}>
-              <h3>Título</h3>
+              <h4>Título</h4>
               <p>
-                Alguma coisa escrita aqui sobre alguma caracteristica sobre o atendimento
+                Alguma coisa escrita aqui sobre alguma característica sobre o atendimento.
               </p>
             </div>
           </aside>

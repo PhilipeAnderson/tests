@@ -11,6 +11,7 @@
 
 .textAbout {
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .contentAbout {
@@ -32,7 +33,7 @@
   text-align: center;
 }
 
-.tipsAbout h3 {
+.tipsAbout h4 {
   border-radius: 5px;
   padding: 5px;
   color: #fff;
