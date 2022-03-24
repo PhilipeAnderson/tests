@@ -1,18 +1,12 @@
 import './App.css';
-import { Header } from './components/Header';
-import { Attendance } from './components/Attendance';
-import { Testimonial } from './components/Testimonial';
-import { About } from './components/About';
-import { Footer } from './components/Footer';
+import { Home } from './pages/index';
+import { Reiki } from './pages/Reiki';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Attendance />
-      <Testimonial />
-      <About />
-      <Footer />
+      <Home />
+      <Reiki />
     </div>
   );
 }
