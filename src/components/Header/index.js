@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styles from './styles.module.css';
 import Lotus from '../../assets/lotus.png';
 import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa';
@@ -8,8 +9,8 @@ export function Header() {
       <main className={styles.content}>
         <nav>
           <ul className={styles.menu}>
-            <li><a className={styles.textMenu} href="/">Início</a></li>
-            <li><a className={styles.textMenu} href="/">Reiki</a></li>
+            <li><Link className={styles.textMenu} to="/">Início</Link></li>
+            <li><Link className={styles.textMenu} to="/Reiki">Reiki</Link></li>
           </ul>
         </nav>
         <div>
