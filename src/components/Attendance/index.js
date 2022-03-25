@@ -15,7 +15,7 @@ export function Attendance() {
 					</header>
 
 					<button className={styles.buttomBox}>
-						Fale Conosco
+						<a target='_blank' href='https://wa.me/+554199878169'>Fale Conosco</a>
 					</button>
 				</div>
 				<div className={styles.boxAttendance}>
@@ -29,7 +29,7 @@ export function Attendance() {
 					</header>
 
 					<button className={styles.buttomBox}>
-						Fale Conosco
+						<a target='_blank' href='https://wa.me/+554199878169'>Fale Conosco</a>
 					</button>
 				</div>
 				<div className={styles.boxAttendance}>
@@ -43,7 +43,7 @@ export function Attendance() {
 					</header>
 
 					<button className={styles.buttomBox}>
-						Fale Conosco
+						<a target='_blank' href='https://wa.me/+554199878169'>Fale Conosco</a>
 					</button>
 				</div>
 			</section>
