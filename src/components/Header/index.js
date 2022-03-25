@@ -16,17 +16,17 @@ export function Header() {
         <div>
           <ul className={styles.socialNet}>
             <li className={styles.icons}>
-              <a href='https://www.instagram.com/energiavitalreikionline/'>
+              <a target="_blank" href='https://www.instagram.com/energiavitalreikionline/'>
                 <FaInstagram />
               </a>
             </li>
             <li className={styles.icons}>
-              <a href=''>
+              <a target="_blank" href='https://www.facebook.com/Energia-Vital-Reiki-Online-105362712128597'>
                 <FaFacebook />
               </a>
             </li>
             <li className={styles.icons}>
-              <a href='https://wa.me/+554199878169'>
+              <a target="_blank" href='https://wa.me/+554199878169'>
                 <FaWhatsapp />
               </a>
             </li>

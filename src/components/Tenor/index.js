@@ -105,9 +105,7 @@ export function Tenor() {
             melhor noite de sono. 
             </p>
             <br /><br /><br />
-            <Link to='/'>
-              Fale Conosco
-            </Link>
+            
 
       </section>
     </main>
