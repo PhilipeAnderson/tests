@@ -42,3 +42,13 @@
     background-color: #6fc0d1;
 }
 
+@media(max-width: 670px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .buttomBox {
+        margin-bottom: 60px;
+    }
+}
+
