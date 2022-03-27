@@ -46,5 +46,28 @@
   margin-top: 20px;
 }
 
+@media(max-width: 670px) {
+  .textTestimonial {
+    margin-top: 40;
+  }
+
+  .picture {
+    width: 125px;
+    height: 125px;
+    padding: 0px 25px;
+  }
+  
+  .pic {
+    width: 125px;
+    height: 125px;
+  }
+}
+
+@media(max-width: 550px) {
+  .textTestimonial {
+    margin-top: 10;
+  }
+}
+
 
 
