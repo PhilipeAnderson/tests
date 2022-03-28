@@ -16,7 +16,7 @@
 
 .contentAbout {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -38,4 +38,29 @@
   padding: 5px;
   color: #fff;
   background-color: #6fc0d1;
+}
+
+@media(max-width: 1140px) {
+  .left, .right {
+    width: 200px;
+  }
+
+
+}
+
+@media(max-width: 670px) {
+  .imageAbout {
+    width: 200px;
+  }
+}
+
+@media(max-width: 550px) {
+  .imageAbout {
+    display: none;
+  }
+
+  .contentAbout {
+    flex-direction: column
+  }
+
 }
