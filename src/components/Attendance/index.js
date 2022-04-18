@@ -23,8 +23,7 @@ export function Attendance() {
 						<h2 className={styles.headerTitle}>Domicílio</h2>
 						<br />
 						<p className={styles.headerText}>
-							Temos um ambiente preparado para te atender, através
-							de horários agendados.
+							Atendemos a domicílio dentro da nossa área de cobertura, entre em contato e saiba mais
 						</p>
 					</header>
 
@@ -37,8 +36,7 @@ export function Attendance() {
 						<h2 className={styles.headerTitle}>Online</h2>
 						<br />
 						<p className={styles.headerText}>
-							Temos um ambiente preparado para te atender, através
-							de horários agendados.
+							Atendimento Virtual? Nesse caso podemos atende-lo de qualquer lugar do mundo!
 						</p>
 					</header>
 
